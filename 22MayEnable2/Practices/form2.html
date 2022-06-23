@@ -1,0 +1,40 @@
+<html>
+  <title>Basic Form</title>
+  <body>
+    <form action="index.html" method="post">
+      <h1>Signing up form</h1>
+
+      <img src="images/2.png" alt="profile photo" style="border-radius: 50%" />
+
+      <fieldset>
+        <legend><span class="number">1</span> Your Basic Info</legend>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" />
+        <br />
+        <label for="email">Email:</label>
+        <input type="email" id="mail" name="your email" />
+        <br />
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" />
+        <br />
+        <label>Gender:</label>
+        <br />
+        <input
+          type="radio"
+          id="m_gender"
+          value="m_gender"
+          name="gender"
+        /><label for="m_gender">Male</label><br />
+        <input
+          type="radio"
+          id="f_gender"
+          value="f_gender"
+          name="gender"
+        /><label for="f_gender">Female</label>
+      </fieldset>
+
+      <button style="color: blue" type="submit">Submit</button>
+      <button style="color: rgb(13, 126, 37)" type="reset">reset form</button>
+    </form>
+  </body>
+</html>
